@@ -3,6 +3,12 @@ html, body {
   height: 100%;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*.main_element {
     background-color: skyblue;
     border: 2px;
