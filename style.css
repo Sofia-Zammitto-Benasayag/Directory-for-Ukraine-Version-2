@@ -4,7 +4,7 @@ html, body {
   margin: 0;
 }
 
-ul {
+.nav_menu {
   /*position: fixed;*/
   display: block;
   top: 0;
@@ -23,11 +23,7 @@ li {
 }
 
 li a {
-  display: block;
-  color: #111;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  
 }
 
 li a:hover:not(.active) {
@@ -47,7 +43,7 @@ li a:hover:not(.active) {
 
 .heading {
   display: inline;
-  margin-left: 320px;
+  margin-left: 340px;
   
 }
 
@@ -72,8 +68,21 @@ li a:hover:not(.active) {
     
 }
 
-.main-element {
+.main_element {
+  display: flex;
+  justify-content: center;
+}
+
+.search_engine {
+  margin-top: 100px;
+}
+
+.search {
   
+}
+
+.footer {
+  background-color: #3282B8;
 }
 
 /*.main_element {
