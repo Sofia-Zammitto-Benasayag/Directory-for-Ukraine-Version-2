@@ -3,39 +3,51 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
   <title>🌎 International Refugee Directory 🇺🇦 </title>
   <link href="style.css" rel="stylesheet" type="text/css" /> 
-  <script src="https://kit.fontawesome.com/b438c4e3fd.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prettier/2.6.2/standalone.js"></script>
+<script src="https://kit.fontawesome.com/b438c4e3fd.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="main_menu">
-    
-    <ul class="nav_menu">
-      <li>
-        <img class= "logo" src= "International Refugee Directory.svg"> 
-        <h1 class= "heading"> International Refugee Directory </h1>
-        <i class="fa-solid fa-house-chimney menu_icon"></i> 
-        <i class="fa-solid fa-question menu_icon"></i>
-      
-      </li>
-      
-      
-    </ul>
 
+<!-- Header -->  
+  <div class="header">
+
+    <div class="col-logo"> <img class= "logo" src= "IRD logo.svg"> </div>
+
+    <div class= "heading">
+       <h1>International Refugee Directory</h1> 
+    </div>
+
+    <div class="menu_icons">
+      <i class="fa-solid fa-house-chimney menu_icon"></i> 
+        <i class="fa-solid fa-question menu_icon"></i>
+    </div>
+    
+  </div> 
+  
+<!-- Search Engine -->
   <div class= "main_element">
     <form class= "search_engine">
     <input type="text" class="search" placeholder="Search by country">
     </form>  
   </div>
+
+<!-- Footer -->  
   <footer class= "footer">
-    <ul class= "footer_links">
-      <li>Source Code</li>
-      <li> <a href="#"> Learn more</a></li>
-      <li>International Refugee Directory 2022</li>
-    </ul>
+     
+      <div class="col-1">Source Code</div>
+      <div class="col-2"> <a href="#"> Learn more</a></div>
+      <div class="col-3">International Refugee Directory 2022</div>
+    
   </footer>  
+
+  
   <script src="script.js"></script>
 </body>
 

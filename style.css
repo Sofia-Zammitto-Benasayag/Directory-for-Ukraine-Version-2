@@ -4,58 +4,47 @@ html, body {
   margin: 0;
 }
 
-.nav_menu {
-  /*position: fixed;*/
-  display: block;
-  top: 0;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  display: flex; 
+  align-items: center;
   background-color:  #BBE1FA;
 }
 
-li {
-  
-  
-  
-}
-
-li a {
-  
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #1DA1F2;
-}
-
 .logo {
-  width: 80px;
-  height: 80px;
-  margin-left: 25px;
-  margin-top: 15px;
+  width: 100px;
+  height: 100px;
+  margin-left: 45px;
+  margin-top: 15px;  
+}
+
+.col-logo{
+  width: 33.33%;
 }
 
 .heading {
-  display: inline;
-  margin-left: 340px;
-  
+  width: 33.33%;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 0.85rem;
+  text-align: center;
 }
 
-.menu_icon {
-  float: right;
+.menu_icons {
+  width: 33.33%;
+  
+  
 }
 
 .fa-house-chimney {
   color: #0F4C75;
   font-size: 32px;
-  padding-right: 25px; 
-  padding-top: 50px;
+  padding-left: 320px; 
+   
   
     
 }
@@ -63,14 +52,16 @@ li a:hover:not(.active) {
 .fa-question {
   color: #0F4C75;
   font-size: 32px;
-  padding-right: 25px;
-  padding-top: 50px;
+  padding-left: 30px;
+  
     
 }
 
+/*Search engine */
 .main_element {
   display: flex;
   justify-content: center;
+  height: 450px;
 }
 
 .search_engine {
@@ -81,15 +72,25 @@ li a:hover:not(.active) {
   
 }
 
+/*Footer*/
 .footer {
   background-color: #3282B8;
+  display: flex;
+  height: 60px;
+  font-size: 1.5rem;
+  align-items: center;
+  
 }
 
-/*.main_element {
-    background-color: skyblue;
-    border: 2px;
-    height: 200px;
-    width: 400px;  
-    text-align: center;
-    margin: 100px;
-} */
+.col-1 {
+  margin-left: 15px;
+  width: 50%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 50%;
+}
